@@ -1,0 +1,570 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: woocommerce-erede\n"
+"POT-Creation-Date: 2017-01-31 13:59-0200\n"
+"PO-Revision-Date: 2017-01-31 14:00-0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;esc_html__;_e\n"
+"X-Poedit-SearchPath-0: ../includes\n"
+"X-Poedit-SearchPath-1: ../templates\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: ../includes/controller/class-wc-erede-admin-notice.php:52
+#: ../templates/class-wc-erede-order-update-ajax.php:7
+msgid "Could not update transaction"
+msgstr "Não foi possível atualizar a transação"
+
+#: ../includes/controller/class-wc-erede-admin-notice.php:89
+msgid "e.Rede order not completed. Confirm order before completion"
+msgstr "Necessário capturar o(s) pedido(s) e.Rede antes de concluí-lo(s)"
+
+#: ../includes/controller/class-wc-erede-admin-notice.php:92
+msgid "An error occurred to confirm the order"
+msgstr "Não foi possível capturar o(s) pedido(s)"
+
+#: ../includes/controller/class-wc-erede-admin-notice.php:95
+msgid "Could not refund transaction:"
+msgstr "Não foi possível realizar o reembolso da transação:"
+
+#: ../includes/controller/class-wc-erede-admin-notice.php:98
+msgid "It's not allowed change status of e.Rede order to selected status:"
+msgstr ""
+"Não é possível alterar o status do(s) pedido(s) e.Rede para o status "
+"selecionado:"
+
+#: ../includes/controller/class-wc-erede-list-log.php:29
+msgid "Transaction Log"
+msgstr "Log de transação"
+
+#: ../includes/controller/class-wc-erede-list-log.php:30
+msgid "Transaction Logs"
+msgstr "Logs de transações"
+
+#: ../includes/controller/class-wc-erede-list-log.php:49
+#: ../includes/controller/class-wc-erede-list-log.php:337
+#: ../templates/class-wc-erede-log-detail-template.php:13
+msgid "Log ID"
+msgstr "ID do log"
+
+#: ../includes/controller/class-wc-erede-list-log.php:50
+#: ../includes/controller/class-wc-erede-list-log.php:339
+#: ../templates/class-wc-erede-log-detail-template.php:17
+msgid "Order ID"
+msgstr "Número do pedido"
+
+#: ../includes/controller/class-wc-erede-list-log.php:56
+msgid "Message(All)"
+msgstr "Todas mensagens"
+
+#: ../includes/controller/class-wc-erede-list-log.php:57
+msgid "Success"
+msgstr "Sucesso"
+
+#: ../includes/controller/class-wc-erede-list-log.php:58
+msgid "Error"
+msgstr "Erro"
+
+#: ../includes/controller/class-wc-erede-list-log.php:62
+msgid "Environment(All)"
+msgstr "Todos ambientes"
+
+#: ../includes/controller/class-wc-erede-list-log.php:63
+#: ../includes/controller/class-wc-erede-settings.php:82
+msgid "Test"
+msgstr "Teste"
+
+#: ../includes/controller/class-wc-erede-list-log.php:64
+#: ../includes/controller/class-wc-erede-settings.php:83
+msgid "Production"
+msgstr "Produção"
+
+#: ../includes/controller/class-wc-erede-list-log.php:68
+msgid "Stage(All)"
+msgstr "Todas etapas"
+
+#: ../includes/controller/class-wc-erede-list-log.php:69
+msgid "Checkout"
+msgstr "Finalização"
+
+#: ../includes/controller/class-wc-erede-list-log.php:70
+msgid "Capture"
+msgstr "Captura"
+
+#: ../includes/controller/class-wc-erede-list-log.php:71
+msgid "Update"
+msgstr "Sincronizar"
+
+#: ../includes/controller/class-wc-erede-list-log.php:72
+msgid "Refund"
+msgstr "Reembolso"
+
+#: ../includes/controller/class-wc-erede-list-log.php:82
+msgid "Filter"
+msgstr "Filtro"
+
+#: ../includes/controller/class-wc-erede-list-log.php:86
+msgid "Empty Trash"
+msgstr "Lixeira vazia"
+
+#: ../includes/controller/class-wc-erede-list-log.php:102
+msgid "yyyy-mm-dd"
+msgstr "aaaa-mm-dd"
+
+#: ../includes/controller/class-wc-erede-list-log.php:104
+#: ../includes/controller/class-wc-erede-list-log.php:106
+msgid "mm/dd/yyyy"
+msgstr "mm/dd/aaaa"
+
+#: ../includes/controller/class-wc-erede-list-log.php:108
+#: ../includes/controller/class-wc-erede-list-log.php:110
+msgid "dd/mm/yyyy"
+msgstr "dd/mm/aaaa"
+
+#: ../includes/controller/class-wc-erede-list-log.php:260
+msgid "No transaction avaliable."
+msgstr "Sem transações disponíveis"
+
+#: ../includes/controller/class-wc-erede-list-log.php:338
+#: ../templates/class-wc-erede-log-detail-template.php:21
+msgid "Log Date"
+msgstr "Data e Hora do Log"
+
+#: ../includes/controller/class-wc-erede-list-log.php:340
+#: ../templates/class-wc-erede-log-detail-template.php:25
+msgid "Message"
+msgstr "Mensagem"
+
+#: ../includes/controller/class-wc-erede-list-log.php:341
+#: ../includes/controller/class-wc-erede-settings.php:75
+msgid "Environment"
+msgstr "Ambiente"
+
+#: ../includes/controller/class-wc-erede-list-log.php:342
+msgid "Stage"
+msgstr "Etapa"
+
+#: ../includes/controller/class-wc-erede-list-log.php:377
+msgid "Delete"
+msgstr "Excluir"
+
+#: ../includes/controller/class-wc-erede-list-log.php:417
+#: ../includes/controller/class-wc-erede-list-log.php:434
+msgid "log excluded"
+msgstr "log excluído"
+
+#: ../includes/controller/class-wc-erede-list-log.php:432
+msgid "logs excluded"
+msgstr "logs excluídos"
+
+#: ../includes/controller/class-wc-erede-list-log.php:463
+#: ../templates/class-wc-erede-log-detail-template.php:7
+msgid "Transactions Log e.Rede"
+msgstr "Log de transações e.Rede"
+
+#: ../includes/controller/class-wc-erede-list-log.php:525
+msgid "Number of items per page:"
+msgstr "Número de itens por página:"
+
+#: ../includes/controller/class-wc-erede-menu.php:29
+msgid "WooCommerce e.Rede"
+msgstr ""
+
+#: ../includes/controller/class-wc-erede-menu.php:29
+msgid "e.Rede logs "
+msgstr ""
+
+#: ../includes/controller/class-wc-erede-order-detail.php:36
+msgid "Synchronize"
+msgstr "Sincronizar"
+
+#: ../includes/controller/class-wc-erede-order-status.php:78
+#: ../includes/controller/class-wc-erede-update-order-request.php:34
+msgid "Order updated."
+msgstr "Pedido atualizado."
+
+#: ../includes/controller/class-wc-erede-payment-checkout.php:86
+#: ../includes/controller/class-wc-erede-payment-checkout.php:95
+#, php-format
+msgid "%sx of %s no interest."
+msgstr "%sx de %s sem juros."
+
+#: ../includes/controller/class-wc-erede-payment-checkout.php:158
+msgid "Error processing checkout. Please try again."
+msgstr "Erro ao finalizar a compra. Por favor tente novamente"
+
+#: ../includes/controller/class-wc-erede-payment-checkout.php:225
+msgid "Invalid CPF"
+msgstr "CPF inválido"
+
+#: ../includes/controller/class-wc-erede-refund.php:29
+msgid "Full refund is required."
+msgstr "Só é possível realizar o estorno no valor total do pedido."
+
+#: ../includes/controller/class-wc-erede-settings.php:42
+msgid "Enable"
+msgstr "Habilitado"
+
+#: ../includes/controller/class-wc-erede-settings.php:44
+msgid "Enables module in your store"
+msgstr "Habilita o módulo da Rede no checkout da loja"
+
+#: ../includes/controller/class-wc-erede-settings.php:48
+msgid "Affiliation number"
+msgstr "Filiação"
+
+#: ../includes/controller/class-wc-erede-settings.php:50
+msgid "Rede Affiliation Number"
+msgstr "Número de filiação do estabelecimento"
+
+#: ../includes/controller/class-wc-erede-settings.php:54
+msgid "Token"
+msgstr "Token"
+
+#: ../includes/controller/class-wc-erede-settings.php:56
+msgid "Access password"
+msgstr "Senha de acesso gerada no portal Rede"
+
+#: ../includes/controller/class-wc-erede-settings.php:60
+msgid "Invoice Number"
+msgstr "Nome na fatura"
+
+#: ../includes/controller/class-wc-erede-settings.php:62
+msgid ""
+"The parameter consists of 22 characters. The first 8 characters identify the "
+"name of the establishment that will be displayed in the cardholder bill. "
+"Rede inserts a hyphen after 8 characters and offers 13 characters to be "
+"dynamically sent per transaction.\n"
+"Example: StoreName-ProductName\n"
+"To use this feature, visit the Rede website and access the menu item e.Rede "
+"> Identificação na fatura or contact the Call Center.\n"
+"The service is only enabled with the registered name. Once enabled, the "
+"feature is available within 24 hours"
+msgstr ""
+"O parâmetro é composto por 22 caracteres. Os 8 primeiros caracteres são para "
+"identificar o nome do estabelecimento, que será exibido de forma estática na "
+"fatura do portador do cartão. Após os 8 caracteres, a Rede insere um hífen e "
+"disponibiliza mais 13 caracteres a serem enviados dinamicamente por "
+"transação.\n"
+"Exemplo: nomeloja-nomedoproduto\n"
+"Para utilizar essa funcionalidade, acesse o portal da Rede no menu e.Rede > "
+"Identificação na fatura ou entre em contato com a Central de atendimento da "
+"Rede. Caso o nome não seja cadastrado, o serviço não será habilitado.\n"
+"Após a habilitação do serviço via portal, a funcionalidade será "
+"disponibilizada dentro de um prazo de até 24 horas"
+
+#: ../includes/controller/class-wc-erede-settings.php:69
+msgid "Title"
+msgstr "Título"
+
+#: ../includes/controller/class-wc-erede-settings.php:71
+msgid "Name that will be displayed for this payment method at the checkout"
+msgstr ""
+"Nome que deve ser apresentado para este meio de pagamento no checkout da sua "
+"loja"
+
+#: ../includes/controller/class-wc-erede-settings.php:78
+msgid "Sets the environment"
+msgstr "Define o ambiente de uso"
+
+#: ../includes/controller/class-wc-erede-settings.php:87
+msgid "Transaction Type"
+msgstr "Tipo de transação"
+
+#: ../includes/controller/class-wc-erede-settings.php:90
+msgid "Transaction type that will be sent to Rede"
+msgstr "O tipo de transação que será enviado para a Rede"
+
+#: ../includes/controller/class-wc-erede-settings.php:94
+msgid "Automatic Capture"
+msgstr "Captura automática"
+
+#: ../includes/controller/class-wc-erede-settings.php:95
+msgid "Later Capture"
+msgstr "Captura posterior"
+
+#: ../includes/controller/class-wc-erede-settings.php:99
+msgid "Quota"
+msgstr "Número máximo de parcelas"
+
+#: ../includes/controller/class-wc-erede-settings.php:102
+msgid "Sets up how many quota your the store provide"
+msgstr ""
+"Define até quantas parcelas sua loja disponibilizará no ato do pagamento"
+
+#: ../includes/controller/class-wc-erede-settings.php:106
+msgid "1"
+msgstr "1"
+
+#: ../includes/controller/class-wc-erede-settings.php:107
+msgid "2"
+msgstr "2"
+
+#: ../includes/controller/class-wc-erede-settings.php:108
+msgid "3"
+msgstr "3"
+
+#: ../includes/controller/class-wc-erede-settings.php:109
+msgid "4"
+msgstr "4"
+
+#: ../includes/controller/class-wc-erede-settings.php:110
+msgid "5"
+msgstr "5"
+
+#: ../includes/controller/class-wc-erede-settings.php:111
+msgid "6"
+msgstr "6"
+
+#: ../includes/controller/class-wc-erede-settings.php:112
+msgid "7"
+msgstr "7"
+
+#: ../includes/controller/class-wc-erede-settings.php:113
+msgid "8"
+msgstr "8"
+
+#: ../includes/controller/class-wc-erede-settings.php:114
+msgid "9"
+msgstr "9"
+
+#: ../includes/controller/class-wc-erede-settings.php:115
+msgid "10"
+msgstr "10"
+
+#: ../includes/controller/class-wc-erede-settings.php:116
+msgid "11"
+msgstr "11"
+
+#: ../includes/controller/class-wc-erede-settings.php:117
+msgid "12"
+msgstr "12"
+
+#: ../includes/controller/class-wc-erede-settings.php:121
+msgid "Minimum installment amount"
+msgstr "Valor mínimo para parcelamento"
+
+#: ../includes/controller/class-wc-erede-settings.php:123
+msgid "Sets a minimum installment amount. Ex: 99"
+msgstr ""
+"Define um valor mínimo para disponibilizar a função de parcelamento na sua "
+"loja. Ex: 99"
+
+#: ../includes/controller/class-wc-erede-settings.php:129
+msgid "Minimum quota amount"
+msgstr "Valor mínimo da parcela"
+
+#: ../includes/controller/class-wc-erede-settings.php:131
+msgid "Sets a specific minimum quota amount. Ex: 99"
+msgstr "Define um valor mínimo específico para cada parcela. Ex: 99"
+
+#: ../includes/controller/class-wc-erede-settings.php:141
+msgid "e.Rede"
+msgstr "e.Rede"
+
+#: ../includes/controller/class-wc-erede-settings.php:154
+msgid ""
+"Credz card does not accept this kind of capture. Automatic capture will be "
+"used on checkout for this card."
+msgstr ""
+"A bandeira Credz não aceita esse tipo de captura. Na finalização do pedido "
+"com esta bandeira será realizada a captura automática."
+
+#: ../includes/controller/class-wc-erede-settings.php:163
+msgid "Minimum installment invalid."
+msgstr "Valor mínimo para parcelamento inválido."
+
+#: ../includes/controller/class-wc-erede-settings.php:173
+msgid "Minimum installment value invalid."
+msgstr "Valor mínimo para cada parcela inválido."
+
+#: ../includes/model/class-wc-erede-config.php:95
+msgid "Credz"
+msgstr ""
+
+#: ../includes/model/class-wc-erede-config.php:96
+msgid "HiperCard"
+msgstr ""
+
+#: ../includes/model/class-wc-erede-config.php:97
+msgid "Hiper"
+msgstr ""
+
+#: ../includes/model/class-wc-erede-config.php:98
+msgid "Visa"
+msgstr ""
+
+#: ../includes/model/class-wc-erede-config.php:99
+msgid "MasterCard"
+msgstr ""
+
+#: ../includes/model/class-wc-erede-config.php:100
+msgid "DinersClub"
+msgstr ""
+
+#: ../includes/model/class-wc-erede-config.php:101
+msgid "JCB"
+msgstr ""
+
+#: ../includes/model/class-wc-erede-config.php:128
+#, php-format
+msgid "and %s"
+msgstr "e %s"
+
+#: ../includes/model/class-wc-erede-config.php:152
+msgid "Config: Affiliation was not informed"
+msgstr "Config: Filiação não informada"
+
+#: ../includes/model/class-wc-erede-config.php:166
+msgid "Config: Token was not informed"
+msgstr "Config: Token não informado"
+
+#: ../includes/model/class-wc-erede-config.php:180
+msgid "Config: Invoice Name exceeded 13 characters"
+msgstr "Config: Nome da fatura excedeu o limite de 13 caracteres"
+
+#: ../includes/model/class-wc-erede-payment-request.php:88
+msgid "Invalid name. Fill in with first and last name"
+msgstr "Nome inválido. Preencher com nome e sobrenome"
+
+#: ../includes/model/class-wc-erede-payment-request.php:108
+msgid "Invalid Card Number"
+msgstr "Número de cartão inválido"
+
+#: ../includes/model/class-wc-erede-payment-request.php:126
+msgid "Invalid Card Brand"
+msgstr "Cartão não aceito"
+
+#: ../includes/model/class-wc-erede-payment-request.php:140
+msgid "Expiration must be greater or equal to the current month/year"
+msgstr "Validade deve ser maior ou igual ao mês/ano corrente"
+
+#: ../includes/model/class-wc-erede-payment-request.php:177
+msgid "CSC code must be 3 digits"
+msgstr "Código de segurança deve ter 3 dígitos"
+
+#: ../includes/model/class-wc-erede-payment-request.php:192
+msgid "Invalid Installments"
+msgstr "Número de parcelas inválida"
+
+#: ../templates/class-wc-erede-log-detail-template.php:29
+msgid "TID"
+msgstr "TID"
+
+#: ../templates/class-wc-erede-log-detail-template.php:33
+msgid "NSU"
+msgstr "NSU"
+
+#: ../templates/class-wc-erede-log-detail-template.php:37
+msgid "Transaction Date"
+msgstr "Data da Transação"
+
+#: ../templates/class-wc-erede-log-detail-template.php:41
+msgid "Customer Name"
+msgstr "Nome do Comprador"
+
+#: ../templates/class-wc-erede-log-detail-template.php:45
+msgid "Order Value"
+msgstr "Total da Compra"
+
+#: ../templates/class-wc-erede-log-detail-template.php:49
+msgid "Installments Amount"
+msgstr "Número de Parcelas da Compra"
+
+#: ../templates/class-wc-erede-log-detail-template.php:53
+msgid "Currency"
+msgstr "Moeda"
+
+#: ../templates/class-wc-erede-log-detail-template.php:57
+msgid "Transaction Status"
+msgstr "Situação da Transação"
+
+#: ../templates/class-wc-erede-log-detail-template.php:61
+msgid "BIN"
+msgstr "BIN do Cartão"
+
+#: ../templates/class-wc-erede-log-detail-template.php:65
+msgid "Last 4 digits"
+msgstr "Últimos 4 Dígitos"
+
+#: ../templates/payment-form.php:38
+msgid "Name of card holder"
+msgstr "Nome do Titular do Cartão"
+
+#: ../templates/payment-form.php:42
+msgid "CPF"
+msgstr "CPF"
+
+#: ../templates/payment-form.php:49
+msgid "Card Number"
+msgstr "Número do Cartão de Crédito"
+
+#: ../templates/payment-form.php:54
+msgid "Expiration"
+msgstr "Validade"
+
+#: ../templates/payment-form.php:55
+msgid "MM / YY"
+msgstr "MM / AA"
+
+#: ../templates/payment-form.php:61
+msgid "CSC Code"
+msgstr "Cód. de Segurança"
+
+#: ../templates/payment-form.php:69
+msgid "What is the CSC Code?"
+msgstr "O que é Cód. de Segurança?"
+
+#: ../templates/payment-form.php:78
+msgid "Installments"
+msgstr "Número de Parcelas"
+
+#: ../woocommerce-gateway-erede.php:195
+msgid "Settings"
+msgstr "Configurações"
+
+#~ msgid "Invalid Name"
+#~ msgstr "Nome inválido"
+
+#~ msgid "MM / YYYY"
+#~ msgstr "MM / AAAA"
+
+#~ msgid "Order Id"
+#~ msgstr "Número do pedido"
+
+#~ msgid "E.Rede order not completed. Confirm order before completion"
+#~ msgstr "Necessário capturar o(s) pedido(s) e.Rede antes de concluí-lo(s)"
+
+#~ msgid "A error occurred to confirm the order"
+#~ msgstr "Não foi possível capturar o(s) pedido(s)"
+
+#~ msgid "It's not allowed change status of e.Rede order to waiting:"
+#~ msgstr ""
+#~ " Não é possível alterar o status do(s) pedido(s) e.Rede para aguardando:"
+
+#~ msgid "log(s) excluded"
+#~ msgstr "log(s) excluído(s)"
+
+#~ msgid "Log#"
+#~ msgstr "Log#"
+
+#~ msgid "Information"
+#~ msgstr "Informação"
+
+#~ msgid "e.Rede Update Status"
+#~ msgstr "Atualizar"
+
+#~ msgid ""
+#~ "Please enter with a valid card brand. The following cards are accepted: "
+#~ "%s."
+#~ msgstr ""
+#~ "Por favor informe uma bandeira válida. As seguintes bandeiras são "
+#~ "aceitas: %s."

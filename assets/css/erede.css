@@ -1,0 +1,45 @@
+.ered-required {
+	color : red;
+}
+
+input[type="tel"].errorValidate{
+	background-color: #ffcccc;
+}
+input[type="text"].errorValidate{
+	background-color: #ffcccc;
+}
+
+.input-text.errorValidate{
+	background-color: #ffcccc;
+}
+
+.errorMsgHolder, .errorMsgCpf, .errorMsgCVC, .errorMsgExpiry, .errorMsgCardNumber {
+	color: red;
+    bottom: -16px;
+    width: 100%;
+    left: 1px;
+}
+
+#payment div.payment_box .wc-credit-card-form-card-number.hiper {
+	background-image: url("../images/hiper.png") !important;
+}
+
+#payment div.payment_box .wc-credit-card-form-card-number.hipercard {
+	background-image: url("../images/hipercard.png") !important;
+}
+
+#payment div.payment_box .wc-credit-card-form-card-number.credz {
+	background-image: url("../images/credz.png") !important;
+}
+
+a.nounderline {
+	text-decoration: none;
+	box-shadow: none !important;
+}
+
+@media only screen and (min-width: 501px) {
+	.ui-tooltip {
+		max-width: 500px !important;
+		width: 500px !important;
+	}
+}
